@@ -1,0 +1,15 @@
+﻿namespace FibonatixAPI
+{
+    public class Student
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; } 
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public int GradesAvg { get; set; }
+        public string SchoolName { get; set; } = string.Empty;
+        public string SchoolAdress { get; set; } = string.Empty;
+
+
+    }
+}
